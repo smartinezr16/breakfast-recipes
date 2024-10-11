@@ -1,0 +1,38 @@
+/* Header.css */
+.header {
+  display: flex;
+  flex-direction: column; /* Disposición vertical */
+  align-items: center; /* Centrando elementos */
+  padding: 20px;
+  background-color: #f8f8f8; /* Color de fondo */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para el header */
+}
+
+.header h1 {
+  margin: 0; /* Eliminando márgenes por defecto */
+}
+
+.search-bar {
+  margin-top: 10px; /* Espacio entre el título y la barra de búsqueda */
+  display: flex; /* Disposición en fila para el input y el botón */
+}
+
+.search-bar input {
+  padding: 10px; /* Espaciado dentro del input */
+  border: 1px solid #000000; /* Borde del input */
+  border-radius: 4px; /* Bordes redondeados */
+  margin-right: 10px; /* Espacio entre el input y el botón */
+}
+
+.search-bar button {
+  padding: 10px 15px; /* Espaciado dentro del botón */
+  background-color: #007bff; /* Color de fondo del botón */
+  color: rgb(0, 0, 0); /* Color del texto del botón */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+
+.search-bar button:hover {
+  background-color: #000000; /* Color más oscuro al pasar el mouse */
+}

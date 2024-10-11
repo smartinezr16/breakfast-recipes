@@ -1,0 +1,27 @@
+
+.recipe-card {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
+  width: 300px;
+  
+}
+
+.recipe-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.recipe-card img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+  max-width: 100%; 
+  margin: 0 auto; 
+}
+
+.recipe-card:hover img {
+  transform: scale(1.1);
+}
+
